@@ -1,3 +1,6 @@
+/* Collor palette : #2C5DBF, #94BDF2, #2585D9, #0CC8F2, #99E2F2 */
+@import url('https://fonts.cdnfonts.com/css/centrale-sans-regular');
+
 .container__flex {
   display: flex;
   justify-content: space-around;
@@ -5,5 +8,28 @@
 }
 
 .header {
-  background-color: ;
+  background-color: #003296;
+  box-shadow: 0px 1px 5px #003296;
+  color: #94BDF2;
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  top: 0;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.logo {
+  width: 80px;
 }
