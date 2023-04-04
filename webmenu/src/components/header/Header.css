@@ -1,6 +1,44 @@
 /* Collor palette : #2C5DBF, #94BDF2, #2585D9, #0CC8F2, #99E2F2 */
 @import url('https://fonts.cdnfonts.com/css/centrale-sans-regular');
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-40px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  75% {
+    opacity: 0.4;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-80px)
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 .container__flex {
   display: flex;
   justify-content: space-around;
@@ -28,8 +66,25 @@
 .navbar li {
   list-style: none;
   margin-right: 40px;
+  animation: slideDown 1.5s ease-out, appear 1.5s ease-in-out forwards;
 }
 
 .logo {
   width: 80px;
+  animation: slideRight 1.5s ease-in-out, appear 1.5s ease-in-out;
+}
+
+#about-web-menu__li {
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+
+#portfolio__li {
+  opacity: 0;
+  animation-delay: 0.6s;
+}
+
+#contact-us__li {
+  opacity: 0;
+  animation-delay: 0.9s;
 }
