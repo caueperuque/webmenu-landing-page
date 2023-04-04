@@ -36,8 +36,8 @@ export default function Form() {
                         <input type="email" className="" required placeholder="Seu email" name="email" />
                     </div>
 
-                    <div className="">
-                        <label>Mensagem</label>
+                    <div className="form__label-textarea">
+                        <label>Mensagem:</label>
                         <textarea className="" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
                     </div>
                     <div className="">
