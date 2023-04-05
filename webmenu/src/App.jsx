@@ -1,5 +1,5 @@
 import './App.css';
-import Form from './components/form/Form';
+// import Form from './components/form/Form';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
-      <Form />
+      {/* <Form /> */}
     </>
   );
 }

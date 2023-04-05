@@ -28,20 +28,20 @@ export default function Form() {
                 <div className="form__container">
 
                     <div className="">
-                        <label>Nome:</label>
-                        <input type="text" autoFocus className="" required placeholder="Nome" name="name" />
+                        <label htmlFor="name">Nome:</label>
+                        <input type="text" autoFocus className="form__input" id="name" required placeholder="Nome" name="name" />
                     </div>
                     <div className="">
                         <label>Email:</label>
-                        <input type="email" className="" required placeholder="Seu email" name="email" />
+                        <input type="email" className="form__input" required placeholder="Seu email" name="email" />
                     </div>
 
                     <div className="form__label-textarea">
                         <label>Mensagem:</label>
-                        <textarea className="" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
+                        <textarea className="form__textarea" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
                     </div>
                     <div className="">
-                        <input type="submit" className="" value="Enviar mensagem"></input>
+                        <input type="submit" className="form__btn" value="Enviar mensagem"></input>
                     </div>
                 </div>
             </form>

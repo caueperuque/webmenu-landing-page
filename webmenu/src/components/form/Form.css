@@ -1,19 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/centrale-sans-regular');
+
 .contact__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  /* border: solid red 2px;  */
+  padding: 20px;
 }
 
 .form__container {
+  border: solid 3px #84a9da; 
+  border-radius: 10px;
+  background-color: #94BDF2;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  align-content: space-between;
+  justify-content: space-around;
+  height: 20rem;
+  width: 35rem;
   
 }
 
 .form__label-textarea {
   display: flex;
   flex-direction: column;
+  /* border: 2px green solid; --> BORDER FOR DEBUG */
+  height: 10rem;
+  justify-content: space-around;
 }
+
+.form__input {
+  width: 15rem;
+  height: 1.6em;
+  border-radius: 4px;
+  border-style: solid;
+  margin-left: 10px;
+}
+
+.form__input::placeholder, .form__textarea::placeholder, .form__btn {
+  padding: 5px;
+  font-family: 'Centrale Sans Regular', sans-serif;
+}
+
+.form__textarea {
+  border-radius: 10px;
+  border: solid 2px gray;
+  resize: none;
+  padding: 10px;
+  font-family: 'Centrale Sans Regular', sans-serif;
+}
+
