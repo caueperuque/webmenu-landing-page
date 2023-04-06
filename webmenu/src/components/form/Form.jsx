@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import Swal from 'sweetalert2'
 import './Form.css'
 
 export default function Form() {
@@ -11,7 +12,11 @@ export default function Form() {
         emailjs.sendForm('gmailServiceID', 'template_jvppfaa', e.target, 'K8H0wY8gXsGIcNukV')
 
             .then((result) => {
-                alert("Mensagem enviada com sucesso! 👍");
+                Swal.fire(
+                    'Enviado!',
+                    'Entraremos em contato em breve!',
+                    'success'
+                  )
 
             }, (error) => {
                 alert(error.message)

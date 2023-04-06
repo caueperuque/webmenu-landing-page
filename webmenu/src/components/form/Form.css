@@ -9,6 +9,7 @@
   /* position: fixed; */
   margin-bottom: 400px;
   padding: 20px;
+  font-size: 20px;
 }
 
 .form__container {
@@ -17,11 +18,11 @@
   background-color: #94BDF2;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 15px;
   justify-content: space-evenly;
   height: 30rem;
   width: 50rem;
-  
+  box-shadow: 10px 10px 10px gray;
 }
 
 .form__label-textarea {
@@ -33,16 +34,19 @@
 }
 
 .form__input {
-  width: 15rem;
-  height: 1.6em;
-  border-radius: 4px;
+  width: 25rem;
+  height: 2.5em;
+  border-radius: 10px;
   border-style: solid;
   margin-left: 10px;
+  padding: 15px 10px;
+  font-size: 20px;
 }
 
 .form__input::placeholder, .form__textarea::placeholder, .form__btn {
-  padding: 5px;
+  padding: 10px;
   font-family: 'Centrale Sans Regular', sans-serif;
+  font-size: 20px;
 }
 
 .form__textarea {
@@ -51,5 +55,10 @@
   resize: none;
   padding: 10px;
   font-family: 'Centrale Sans Regular', sans-serif;
+  font-size: 20px;
 }
 
+.form__btn {
+  border-radius: 5px;
+  border: solid 1px gray;
+}
