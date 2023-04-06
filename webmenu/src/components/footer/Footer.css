@@ -9,6 +9,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  z-index: 5;
 }
 
 .footer__icon-img {

@@ -28,7 +28,7 @@ export default function Form() {
     }
     return (
         <div className="contact__container">
-            <h2>Contato</h2>
+            <h2 className="contact__title">Contato</h2>
             <form onSubmit={sendEmail}>
                 <div className="form__container">
 

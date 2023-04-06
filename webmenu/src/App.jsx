@@ -1,4 +1,5 @@
 import './App.css';
+import AboutUs from './components/about/AboutUs';
 import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Header from './components/header/Header';
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
+      <AboutUs />
       <Form />
       <Footer />
     </>

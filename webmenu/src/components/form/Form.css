@@ -4,10 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
   /* border: solid red 2px;  */
   /* position: fixed; */
-  margin-bottom: 400px;
+  margin-bottom: 300px;
   padding: 20px;
   font-size: 20px;
 }
@@ -61,4 +60,8 @@
 .form__btn {
   border-radius: 5px;
   border: solid 1px gray;
+}
+
+.contact__title {
+  font-size: 50px;
 }
