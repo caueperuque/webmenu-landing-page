@@ -5,7 +5,7 @@ import './Hero.css'
 class Hero extends Component {
   render() {
     return (
-      <div className='hero__background'>
+      <div className='hero__background' id='header-hero'>
         <img src={hero} alt='hero' className='hero'/>
       </div>
     )

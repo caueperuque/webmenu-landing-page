@@ -6,7 +6,9 @@ class Header extends Component {
   render() {
     return (
       <header className="container__flex header">
+        <a href="header">
           <img src={logo} alt="logo" className='logo' />
+        </a>
         <nav>
           <ul className="navbar">
             <li id="about-us__li"><a href="#aboutUs" className='link-nostyle'>Sobre nós</a></li>
