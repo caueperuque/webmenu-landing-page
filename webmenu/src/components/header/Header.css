@@ -89,3 +89,8 @@
   opacity: 0;
   animation-delay: 0.9s;
 }
+
+.link-nostyle {
+  text-decoration: none;
+  color: #94BDF2;
+}

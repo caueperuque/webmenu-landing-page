@@ -9,10 +9,10 @@ class Header extends Component {
           <img src={logo} alt="logo" className='logo' />
         <nav>
           <ul className="navbar">
-            <li id="about-us__li">Sobre nós</li>
-            <li id="about-web-menu__li">Menus Web</li>
-            <li id="portfolio__li">Portfólio</li>
-            <li id="contact-us__li">Entre em contato</li>
+            <li id="about-us__li"><a href="#aboutUs" className='link-nostyle'>Sobre nós</a></li>
+            <li id="about-web-menu__li"><a href="#aboutUs" className='link-nostyle'>Menus Web</a></li>
+            <li id="portfolio__li"><a href="#aboutUs" className='link-nostyle'>Portfólio</a></li>
+            <li id="contact-us__li"><a href="#aboutUs" className='link-nostyle'>Entre em contato</a></li>
           </ul>
         </nav>
       </header>

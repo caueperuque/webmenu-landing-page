@@ -5,10 +5,10 @@ import about from '../../data';
 class AboutUs extends Component {
   render() {
     return (
-      <section className='aboutUs__container'>
-        <h2 className='aboutUs__title'>Sobre nós</h2>
+      <section className='aboutUs__container' id='aboutUs'>
+        <h2 className='aboutUs__title' >Sobre nós</h2>
         <article className='aboutUs__article'>
-          <p className='aboutUs__text'>{about.text}</p>
+          <span className='aboutUs__text'>{about.text}</span>
         </article>
         <hr />
       </section>
