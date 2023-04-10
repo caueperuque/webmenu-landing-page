@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
+import MenuWeb from './components/menu-web/MenuWeb';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <AboutUs />
+      <MenuWeb />
       <Form />
       <Footer />
     </>
