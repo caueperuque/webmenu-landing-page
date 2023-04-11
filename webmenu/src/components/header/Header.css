@@ -106,9 +106,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .hero__background {
-    width: 100%;
-  }
 
   .navbar {
     display: none;
@@ -123,6 +120,10 @@
     justify-content: space-between;
     width: 100%;
     padding: 30px;
+  }
+
+  .header {
+    width: 100vw;
   }
 
   .logo {
