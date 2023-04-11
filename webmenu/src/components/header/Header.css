@@ -113,12 +113,12 @@
     display: none;
   }
 
-  .menu-icon {
+  /* .menu-icon {
     display: flex;
     width: 60px;
     padding: 0;
     margin-bottom: 5px;
-  }
+  } */
 
   .container__flex {
     justify-content: space-between;
