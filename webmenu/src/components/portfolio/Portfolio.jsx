@@ -6,7 +6,7 @@ export class Portfolio extends Component {
   render() {
     const { clients } = data;
     return (
-      <section className='portfolio__main-container'>
+      <section className='portfolio__main-container' id="portfolio">
         <div className='portfolio__sub-container'>
         {clients.map(({ name, img, info, link }) => (
           <article key={name} className='portfolio__container'>

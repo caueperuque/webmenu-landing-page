@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
+  scroll-margin-top: 130px;
 }
 
 .menuweb__article {
