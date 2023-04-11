@@ -14,7 +14,7 @@ class Header extends Component {
             <li id="about-us__li"><a href="#aboutUs" className='link-nostyle'>Sobre nós</a></li>
             <li id="about-web-menu__li"><a href="#menuweb" className='link-nostyle'>Menus Web</a></li>
             <li id="portfolio__li"><a href="#aboutUs" className='link-nostyle'>Portfólio</a></li>
-            <li id="contact-us__li"><a href="#aboutUs" className='link-nostyle'>Entre em contato</a></li>
+            <li id="contact-us__li"><a href="#contact" className='link-nostyle'>Entre em contato</a></li>
           </ul>
         </nav>
       </header>
