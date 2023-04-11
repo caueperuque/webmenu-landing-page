@@ -27,8 +27,8 @@ export default function Form() {
 
     }
     return (
-        <div className="contact__container">
-            <h2>Contato</h2>
+        <div className="contact__container" id="contact">
+            <h2 className="contact__title">Contato</h2>
             <form onSubmit={sendEmail}>
                 <div className="form__container">
 
@@ -45,7 +45,7 @@ export default function Form() {
                         <label>Mensagem:</label>
                         <textarea className="form__textarea" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
                     </div>
-                    <div className="">
+                    <div className="form__container-btn">
                         <input type="submit" className="form__btn" value="Enviar mensagem"></input>
                     </div>
                 </div>

@@ -89,3 +89,14 @@
   opacity: 0;
   animation-delay: 0.9s;
 }
+
+.link-nostyle {
+  text-decoration: none;
+  color: #94BDF2;
+}
+
+.link-nostyle:hover {
+  font-size: 22px;
+  transition: font-size 0.2s ease-in-out;
+  color: #bad1ee
+}
