@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-content: center;
 }
 
 .header {
@@ -115,6 +116,8 @@
   .menu-icon {
     display: flex;
     width: 60px;
+    padding: 0;
+    margin-bottom: 5px;
   }
 
   .container__flex {

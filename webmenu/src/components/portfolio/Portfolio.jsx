@@ -26,7 +26,8 @@ export class Portfolio extends Component {
             </div>
           </article>
         ))}
-        </div>
+        <hr />
+        </div> 
       </section>
   );
   }

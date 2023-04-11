@@ -75,7 +75,7 @@
 }
 
 .contact__title {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .form__container-btn {
@@ -86,7 +86,7 @@
 @media screen and (max-width: 800px) {
   .form__container {
     /* border: 3px red solid; */
-    width: 70%;
+    width: 90vw;
   }
 
   form {
@@ -96,6 +96,6 @@
   }
 
   .contact__title {
-    font-size: 200%;
+    font-size: 2rem;
   }
 }
