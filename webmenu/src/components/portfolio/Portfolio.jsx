@@ -8,6 +8,7 @@ export class Portfolio extends Component {
     return (
       <section className='portfolio__main-container'>
         <div className='portfolio__sub-container'>
+          <h2 className='portfolio__main-title'>Portfólio</h2>
         {clients.map(({ name, img, info, link }) => (
           <article key={name} className='portfolio__container'>
             <div className='portfolio__card'>

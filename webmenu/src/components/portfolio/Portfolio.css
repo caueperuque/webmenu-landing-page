@@ -73,6 +73,10 @@
   width: 90%;
 }
 
+.portfolio__main-title {
+  font-size: 50px;
+}
+
 @media screen and (max-width: 800px) {
 
   .portfolio__container {
