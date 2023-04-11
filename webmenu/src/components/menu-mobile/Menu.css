@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+  .menu-icon {
+    display: flex;
+    width: 60px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .teste {
+    position: absolute;
+    z-index: 6;
+  }
+}
+
