@@ -12,7 +12,12 @@ const data = {
   Com a WebMenu, você tem a solução completa para criar menus web incríveis, personalizados com a identidade visual do seu negócio e adaptados às necessidades da sua empresa. Aproveite os benefícios que os menus web podem trazer para o seu estabelecimento e destaque-se em um mercado cada vez mais competitivo!`,
 
   clients: [
-    { name: "Pesqueiro Zoio D'gua", img: pesqueiro , info: '', link: 'https://zoiodagua.vercel.app/'}
+    { 
+      name: "Pesqueiro Zoio D'gua", 
+      img: pesqueiro , 
+      info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lorem ante, porttitor viverra metus imperdiet nec. Donec aliquet enim purus, sed dictum mauris imperdiet in. Suspendisse sed euismod enim. Duis auctor, magna sit amet imperdiet molestie, lacus dui feugiat orci, ac consequat diam augue non nisl. Aliquam nec gravida sem. Nullam id mollis sapien. Sed feugiat ornare sem. Duis rutrum lobortis dolor. Donec vestibulum tincidunt ipsum, at laoreet nunc dictum et. Mauris quis lobortis felis. Nam ut erat cursus, euismod augue vitae, ultricies urna. Praesent sodales tellus eu mattis aliquam. Curabitur sed mollis neque. Quisque sodales ante euismod mauris commodo convallis. Vivamus felis erat, tempus in lobortis vel, volutpat nec lectus. Morbi viverra orci arcu, vel blandit est placerat eu.", 
+      link: 'https://zoiodagua.vercel.app/',
+    }
   ]
 }
   
