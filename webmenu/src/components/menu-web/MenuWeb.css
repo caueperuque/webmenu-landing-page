@@ -36,3 +36,21 @@ hr {
 .menuweb__text {
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 800px) {
+  .menuweb__article {
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .menuweb__text {
+    font-size: 60%;
+  }
+
+  .menuweb__title {
+    text-align: center;
+    font-size: 180%;
+  }
+
+}

@@ -37,3 +37,21 @@ hr {
 .aboutUs__text {
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 800px) {
+  .aboutUs__text {
+    font-size: 60%;
+  }
+
+  .aboutUs__article {
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+  }
+
+  .aboutUs__title {
+    font-size: 200%;
+  }
+
+}

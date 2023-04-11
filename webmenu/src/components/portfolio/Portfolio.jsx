@@ -7,8 +7,9 @@ export class Portfolio extends Component {
     const { clients } = data;
     return (
       <section className='portfolio__main-container'>
+        <div className='portfolio__sub-container'>
         {clients.map(({ name, img, info, link }) => (
-          <article className='portfolio__container'>
+          <article key={name} className='portfolio__container'>
             <div className='portfolio__card'>
             <h2 className='portfolio__title'>{ name }</h2>
               <img src={ img } alt={ `Imagem do menu web de ${ name } ` } className='portfolio__card-image'/>
@@ -24,6 +25,7 @@ export class Portfolio extends Component {
             </div>
           </article>
         ))}
+        </div>
       </section>
   );
   }

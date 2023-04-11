@@ -15,9 +15,9 @@ const data = {
     { 
       name: "Pesqueiro Zoio D'gua", 
       img: pesqueiro , 
-      info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere lorem ante, porttitor viverra metus imperdiet nec. Donec aliquet enim purus, sed dictum mauris imperdiet in. Suspendisse sed euismod enim. Duis auctor, magna sit amet imperdiet molestie, lacus dui feugiat orci, ac consequat diam augue non nisl. Aliquam nec gravida sem. Nullam id mollis sapien. Sed feugiat ornare sem. Duis rutrum lobortis dolor. Donec vestibulum tincidunt ipsum, at laoreet nunc dictum et. Mauris quis lobortis felis. Nam ut erat cursus, euismod augue vitae, ultricies urna. Praesent sodales tellus eu mattis aliquam. Curabitur sed mollis neque. Quisque sodales ante euismod mauris commodo convallis. Vivamus felis erat, tempus in lobortis vel, volutpat nec lectus. Morbi viverra orci arcu, vel blandit est placerat eu.", 
+      info: "Criado com muito carinho pela equipe da WebMenu. Com um design moderno e funcional, o cardápio é acessível em qualquer dispositivo com acesso à internet, permitindo que seus clientes visualizem todas as opções de produtos de forma prática e intuitiva. Além disso, nosso cardápio digital conta com imagens de alta qualidade, descrições detalhadas e preços atualizados, garantindo que os clientes tenham uma experiência de alta qualidade ao escolher seus pratos preferidos. Acesse agora mesmo e surpreenda-se com a praticidade e eficiência do nosso cardápio digital!", 
       link: 'https://zoiodagua.vercel.app/',
-    }
+    },
   ]
 }
   

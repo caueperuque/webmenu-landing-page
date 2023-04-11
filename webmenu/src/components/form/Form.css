@@ -81,3 +81,19 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+  .form__container {
+    /* border: 3px red solid; */
+    width: 70%;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact__title {
+    font-size: 200%;
+  }
+}
