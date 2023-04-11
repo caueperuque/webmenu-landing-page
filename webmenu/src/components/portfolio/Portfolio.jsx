@@ -1,36 +1,24 @@
 import React, { Component } from 'react'
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import data from '../../data';
+import linkico from '../../images/linkicon.png'
 export class Portfolio extends Component {
-  settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-    ]
-  };
-  
   render() {
+    const { clients } = data;
     return (
-      <Slider {...this.settings}>
-      <div>
-        <h3>Slide 1</h3>
-        <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRZcmlaOZxV_nbS5cWjzzCB1i3PnTRqawOv0-EzUWZ15gTTCyaua_Ngv5hutODmYy7y" alt="" />
-      </div>
-    </Slider>
+      <section>
+        {clients.map(({ name, img, info, link }) => (
+          <article className='portfolio__container'>
+            <h2 className='portfolio__title'>{ name }</h2>
+            <div className='portfolio__card'>
+              <img src={ img } alt={ `Imagem do menu web de ${ name } ` } className='portfolio__card-image'/>
+              <a href={ link } target='_blank' rel='noreferrer'><img src={linkico} alt={`link para acessar o cardápio ${name}`} /></a>
+              </div>
+            <div>
+              <p>{info}</p>
+            </div>
+          </article>
+        ))}
+      </section>
   );
   }
 }
