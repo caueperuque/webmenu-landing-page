@@ -26,7 +26,7 @@ export class Portfolio extends Component {
             </div>
           </article>
         ))}
-        <hr />
+        <hr className='portfolio__bar-end'/>
         </div> 
       </section>
   );

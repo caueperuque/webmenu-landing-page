@@ -128,9 +128,21 @@
   }
 
   .portfolio__card-text {
-    padding: 30px;
+    margin-top: 15px;
+    padding: 0;
     font-size: 1rem;
     line-height: 1.3rem;
-    text-align: start;
+    /* text-align: start; */
   }
+
+  .portfolio__sub-container, hr {
+    margin: 50ox 0px;
+    width: 80vw;
+  }
+
+  .portfolio__bar-end {
+    margin: 10px;
+    margin-bottom: 60px;
+  }
+
 }
