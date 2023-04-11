@@ -15,14 +15,14 @@
   border: solid #94BDF2 10px;
   border-radius: 10px;
   width: 50%;
-  font-size: 30px;
+  font-size: 2rem;
   background-color: white;
   font-style: italic;
   box-shadow: 10px 10px 10px gray;
 }
 
 .aboutUs__title {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 hr {
@@ -39,19 +39,22 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
-  .aboutUs__text {
-    font-size: 60%;
-  }
 
   .aboutUs__article {
-    width: 70%;
+    width: 80%;
     justify-content: center;
     align-content: center;
-    padding: 50px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .aboutUs__container {
+    /* border: solid blue 1px; */
+    margin-top: 150px;
   }
 
   .aboutUs__title {
-    font-size: 200%;
+    font-size: 2rem;
   }
 
 }
