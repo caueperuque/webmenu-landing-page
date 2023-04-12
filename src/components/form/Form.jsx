@@ -34,7 +34,7 @@ export default function Form() {
 
                     <div className="">
                         <label htmlFor="name">Nome:</label>
-                        <input type="text" autoFocus className="form__input" id="name" required placeholder="Nome" name="name" />
+                        <input type="text" className="form__input" id="name" required placeholder="Nome" name="name" />
                     </div>
                     <div className="">
                         <label>Email:</label>
