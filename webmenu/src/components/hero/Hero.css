@@ -37,5 +37,19 @@
 @media screen and (max-width: 800px) {
   .hero__background {
     width: 100vw;
+    /* background-size: cover; */
+  }
+  
+  .sla {
+    background-color: #2b5ab9;
+    height: 220vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero {
+    width: 190vw;
+    margin-bottom: 50vw;
   }
 }

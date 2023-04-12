@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <header className="container__flex header">
-        <a href="#topo">
+        <a href="#">
           <img src={logo} alt="logo" className='logo' />
         </a>
         <nav>
