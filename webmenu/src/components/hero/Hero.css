@@ -42,7 +42,7 @@
   
   .sla {
     background-color: #2b5ab9;
-    height: 220vw;
+    height: 200vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +50,6 @@
 
   .hero {
     width: 100vw;
-    margin-bottom: 50vw;
+    margin-bottom: 60vw;
   }
 }
