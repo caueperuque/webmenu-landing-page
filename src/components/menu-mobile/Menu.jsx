@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
 import menu from '../../images/menu.png'
 import './Menu.css'
+import Topics from './Topics';
 
 class Menu extends Component {
-  handleClick = () => {
-    console.log('Olá');
+  state = {
+    enable: false,
   }
+
+  handleClick = () => {
+    this.setState({
+      enable: !this.state.enable,
+    })
+  }
+  
   render() {
+    const { enable } = this.state;
     return (
-      <button className='myBtn' onClick={this.handleClick}><img src={menu} alt="" className='menu-icon' onClick={this.toogleMode}/></button>
-    )
+      <>
+        <button className='myBtn' onClick={this.handleClick}><img src={menu} alt="" className='menu-icon' onClick={this.toogleMode}/></button>
+        { enable && <Topics /> }
+      </>
+    );
   }
 }
 

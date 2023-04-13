@@ -1,3 +1,7 @@
+.myBtn {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .menu-icon {
     display: flex;
@@ -9,9 +13,39 @@
     position: absolute;
     z-index: 6;
   }
+
+  .topics__list {
+    background-color: #6bafebfa;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    margin-top: 50px;
+    list-style: none;
+    position: absolute;
+    /* line-height: 10vw; */
+    z-index: 1;
+    /* display: block; */
+    font-size: 40px;
+    padding: 20px;
+    right: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vw;
+    /* align-items: center;
+    align-content: center; */
+  }
+
+  .myBtn {
+    background-color: #003296;
+    border: none;
+    display: flex;
+    z-index: 2;
+  }
+
+  .linkstyle-none {
+    text-decoration: none;
+    color: rgb(192, 231, 247);
+  }
 }
 
-.myBtn {
-  background-color: #003296;
-  border: none;
-}
+
