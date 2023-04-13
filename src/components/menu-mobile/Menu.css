@@ -43,7 +43,7 @@
 @media screen and (max-width: 800px) {
   .menu-icon {
     display: flex;
-    width: 60px;
+    width: 40px;
     padding: 0;
     margin-bottom: 5px;
     animation: slideLeft 1.5s ease-in-out, appear 1.5s ease-in-out;
@@ -82,7 +82,7 @@
   }
 
   #btn__close {
-    width: 5px;
+    /* width: 5px; */
     border: none;
     background-color: #6bafebfa;
     margin-left: 70vw;
