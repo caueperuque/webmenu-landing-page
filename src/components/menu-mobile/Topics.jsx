@@ -16,22 +16,22 @@ class Topics extends Component {
 
           <li> 
             <img src={about} alt="icone do tópico sobre nós" className='icon-topics' />
-            <a href="#aboutUs" className='linkstyle-none' onClick={this.handleClick}>Sobre nós</a>
+            <a href="#aboutUs" className='linkstyle-none' onClick={eventClick}>Sobre nós</a>
           </li>
           
           <li>
             <img src={menuweb} alt="icone do tópico menus web" className='icon-topics' />
-            <a href="#menuweb" className='linkstyle-none' >Menus Web</a>
+            <a href="#menuweb" className='linkstyle-none' onClick={eventClick}>Menus Web</a>
           </li>
 
           <li>
             <img src={portfolio} alt="icone do tópico portfólio" className='icon-topics' />
-            <a href="#portfolio" className='linkstyle-none' >Portfólio</a>
+            <a href="#portfolio" className='linkstyle-none' onClick={eventClick} >Portfólio</a>
           </li>
 
           <li>
-          <img src={contact} alt="icone do tópico entre em contato" className='icon-topics' />
-            <a href="#contact" className='linkstyle-none' >Entre em contato</a>
+          <img src={contact} alt="icone do tópico entre em contato" className='icon-topics'  />
+            <a href="#contact" className='linkstyle-none' onClick={eventClick} >Entre em contato</a>
           </li>
 
         </ul>
