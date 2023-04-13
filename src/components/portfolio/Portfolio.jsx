@@ -13,10 +13,16 @@ export class Portfolio extends Component {
           <article key={name} className='portfolio__container'>
             <div className='portfolio__card'>
             <h2 className='portfolio__title'>{ name }</h2>
-              <img src={ img } alt={ `Imagem do menu web de ${ name } ` } className='portfolio__card-image'/>
-              <div className='card__icon'>
+
+              {/* Desktop */}
+              <img src={ img } alt={ `Imagem do menu web de ${ name } ` } className='portfolio__card-image' id='card__desktop'/>
+              <div className='card__icon' id='icon__desktop'>
                 <a href={ link } target='_blank' rel='noreferrer'><img src={linkicon} alt={`link para acessar o cardápio ${name}`} className='portfolio__img-link' /></a>
               </div>
+
+              {/* Mobile */}
+              <a href={ link } target='_blank' rel='noreferrer'> <img src={ img } alt={ `Imagem do menu web de ${ name } ` } className='portfolio__card-image' id='card__mobile'/> </a>
+
               </div>
             <div className='portfolio__hr'>
               <hr className='portfolio__bar'/>
