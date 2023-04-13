@@ -13,13 +13,13 @@ class Menu extends Component {
       enable: !this.state.enable,
     })
   }
-  
+
   render() {
     const { enable } = this.state;
     return (
       <>
-        <button className='myBtn' onClick={this.handleClick}><img src={menu} alt="" className='menu-icon' onClick={this.toogleMode}/></button>
-        { enable && <Topics /> }
+        <button className='myBtn' onClick={this.handleClick}><img src={menu} alt="" className='menu-icon'/></button>
+        { enable && <Topics eventClick={this.handleClick}/> }
       </>
     );
   }
