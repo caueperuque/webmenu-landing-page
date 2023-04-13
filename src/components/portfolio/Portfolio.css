@@ -89,6 +89,7 @@
   text-align: center;
 }
 
+
 @media screen and (max-width: 800px) {
 
   .portfolio__container {
@@ -132,11 +133,9 @@
   }
 
   .portfolio__card-text {
-    margin-top: 15px;
     padding: 0;
     font-size: 1rem;
     line-height: 1.3rem;
-    /* text-align: start; */
   }
 
   .portfolio__sub-container, hr {
@@ -156,6 +155,13 @@
   
   #card__desktop, #icon__desktop {
     display: none;
+  }
+
+  .portfolio__container-card-text {
+    background-color: rgb(246, 246, 246);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
   }
 
 }

@@ -4,11 +4,7 @@ const data = {
   text:`Nós somos a WebMenu, uma equipe de profissionais apaixonados por programação e tecnologia, que oferecemos soluções personalizadas e acessíveis de criação de cardápios e catálogos digitais para empresas de todos os tamanhos. Nós nos esforçamos para fornecer um atendimento personalizado e preços competitivos, e estamos sempre atualizados sobre as tendências e melhores práticas da indústria para oferecer soluções eficazes que aprimoram a presença digital e a comunicação das empresas com seus clientes.
   `,
 
-  menuweb: `Os menus web são uma tendência em constante crescimento, oferecendo aos estabelecimentos uma forma prática e moderna de apresentar seus cardápios aos clientes. Além de serem acessíveis em qualquer dispositivo com acesso à internet, os menus web permitem que os clientes visualizem todas as opções de produtos em um só lugar, com informações detalhadas, imagens e preços.
-  
-  Ao optar por um menu web, sua empresa pode oferecer uma experiência de alta qualidade aos clientes, aumentando a satisfação e fidelização.
-  
-  Com a WebMenu, você tem a solução completa para criar menus web incríveis, personalizados com a identidade visual do seu negócio e adaptados às necessidades da sua empresa. Aproveite os benefícios que os menus web podem trazer para o seu estabelecimento e destaque-se em um mercado cada vez mais competitivo!`,
+  menuweb: `Os menus web são uma tendência em constante crescimento e oferecem uma forma moderna e prática para apresentar cardápios aos clientes. Com a WebMenu, você pode criar menus web personalizados e adaptados às necessidades da sua empresa. Aproveite os benefícios que os menus web podem trazer para o seu estabelecimento e destaque-se em um mercado competitivo!`,
 
   clients: [
     { 
