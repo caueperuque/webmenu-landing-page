@@ -1,6 +1,6 @@
 # WebMenu 🌐
 
-WebMenu é uma agência que eu e meu amigo João Felipe Zini fundamos, onde prestamos serviços voltado a programação. O intuito dessa empresa é desenvolver cardápior e catálogos online usando React. E essa aplicação é nossa lanning page.
+WebMenu é uma agência que eu e meu amigo João Felipe Zini fundamos, onde prestamos serviços voltado a programação. O intuito dessa empresa é desenvolver cardápios e catálogos online usando React. E essa aplicação é nossa landing page.
 
 ### 🔧 Instalação
 
